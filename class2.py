@@ -18,7 +18,7 @@ def scraping(link):
     f = open("data.txt", 'a', encoding='utf-8')
     for tab in table:
         f.write(str(tab.text))
-        f.write("\n")
+        f.write("\n") 
         # print(type(str(tab.text)))
         
         # print(tab.text)
